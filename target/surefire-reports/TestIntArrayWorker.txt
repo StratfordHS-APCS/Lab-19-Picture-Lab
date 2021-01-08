@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: TestIntArrayWorker
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.963 s <<< FAILURE! - in TestIntArrayWorker
+getLargestTest(TestIntArrayWorker)  Time elapsed: 0.193 s  <<< FAILURE!
+org.junit.ComparisonFailure: 
+Testing IntArrayWorker.getLargest() expected:<... should be 6 and is [6
+Largest should be 6 and is 6
+Largest should be 6 and is 6
+Largest should be 6 and is 6]> but was:<... should be 6 and is [0
+Largest should be 6 and is 0
+Largest should be 6 and is 0
+Largest should be 6 and is 0]>
+	at TestIntArrayWorker.getLargestTest(TestIntArrayWorker.java:56)
+
+getColTotalTest(TestIntArrayWorker)  Time elapsed: 0.014 s  <<< FAILURE!
+org.junit.ComparisonFailure: 
+Testing IntArrayWorker.getColTotal() expected:<... should be 5 and is [5
+Total for column 1 should be 7 and is 7
+Total for column 2 should be 9 and is 9]> but was:<... should be 5 and is [0
+Total for column 1 should be 7 and is 0
+Total for column 2 should be 9 and is 0]>
+	at TestIntArrayWorker.getColTotalTest(TestIntArrayWorker.java:67)
+
+getCountTest(TestIntArrayWorker)  Time elapsed: 0.08 s  <<< FAILURE!
+org.junit.ComparisonFailure: Testing IntArrayWorker.getCount() expected:<...d be 6 and count is [6]> but was:<...d be 6 and count is [0]>
+	at TestIntArrayWorker.getCountTest(TestIntArrayWorker.java:45)
+
