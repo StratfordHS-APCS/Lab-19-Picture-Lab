@@ -11,4 +11,4 @@ You will be completing the AP Computer Science Lab called the Picture Lab.  Foll
 
 
 
-Note for Mr. Avis: run = "export CLASSPATH=.:./classes/*:./images/*:./tests/*; javac -d . *.java ./classes/*.java; java Main"
+Note for Mr. Avis: `run = "export CLASSPATH=.:./classes/*:./images/*:./tests/*; javac -d . *.java ./classes/*.java; java Main"`
